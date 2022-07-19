@@ -4,7 +4,9 @@ const nextConfig = {
   swcMinify: true,
   images: {
     dangerouslyAllowSVG: true,
-    unoptimized: true
+    unoptimized: true,
+    loader: "imgix",
+    path: "",
   }
 }
 
