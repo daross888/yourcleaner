@@ -1,12 +1,10 @@
 import React from "react";
-import ServiceImage from '../../public/images/service.png';
-import Image from "next/image";
 
 const ServiceAreas = () => {
     return (
         <>
             <div className="bg-white rounded-lg shadow-lg w-full relative">
-                <Image src={ServiceImage} layout="responsive" alt="Your Cleaner - Service Areas" className="rounded-lg" />
+                <img src="/images/service.png" alt="Your Cleaner - Service Areas" className="object-fill rounded-lg" width="100%" />
             </div>
             
             <div className="bg-white p-4 rounded-lg shadow-lg">
