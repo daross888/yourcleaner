@@ -1,13 +1,11 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image';
 import CallToActionBlue from '../components/CallToAction/CallToActionBlue';
 import CallToActionGreen from '../components/CallToAction/CallToActionGreen';
 import Contact from '../components/Contact/Contact';
 import References from '../components/References/References';
 import Services from '../components/Services/Services';
 import Testimonials from '../components/Testimonials/Testimonials';
-import TopBannerImage from '../public/images/banners/home.png';
 
 const Home: NextPage = () => {
   return (
@@ -18,7 +16,7 @@ const Home: NextPage = () => {
       </Head>
 
       <div className='absolute -right-24 lg:right-0 top-16 xl:top-0 -z-10 w-[350px] h-[400px] md:w-[500px] md:h-[600px] lg:w-[650px] lg:h-[700px]  xl:w-[750px] xl:h-[900px]'>
-        <Image src={TopBannerImage} layout="responsive" alt="Your Cleaner - Professional Cleaning Services" height={750} width={900} objectFit="cover" className='topBannerImg' />
+        <img src="/images/banners/home.png" alt='Your Cleaner - Professional Cleaning Services' className=' object-fill topBannerImg' />
       </div>
 
 
