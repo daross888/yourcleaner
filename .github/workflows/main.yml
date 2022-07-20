@@ -31,5 +31,5 @@ jobs:
 
       - name: SSH To server
         run: |
-        ssh admin_yourcleaner@jsrvr.co.uk
-        ls -l
+          ssh admin_yourcleaner@jsrvr.co.uk
+          ls -l
