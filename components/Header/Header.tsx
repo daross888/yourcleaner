@@ -36,7 +36,7 @@ const Header = () => {
                             </li>
                         </ul>
 
-                        <Button type={"link"} href="/contact-us" color="secondary" className="max-w-[150px] text-base px-6 lg:text-lg xl:max-w-[200px]">FREE Quote</Button>
+                        <Button type={"link"} href="/contact-us" color="secondary" className="max-w-[150px] text-sm px-4 lg:text-lg xl:max-w-[200px]">FREE Quote</Button>
                     </div>
                 </div>
             </nav>
